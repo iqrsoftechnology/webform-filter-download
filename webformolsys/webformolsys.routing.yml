@@ -1,0 +1,35 @@
+webformolsys.wbcsvFilter:
+  path: '/websys-csv-filter-down'
+  defaults:
+    _form: '\Drupal\webformolsys\Form\WebCsvFilterForm'
+    _title: 'Filter Webform and Download CSV'
+  requirements: 
+    _permission: 'webformolsys webfrm_filter'
+  options:
+    no_cache: 'TRUE'
+
+webformolsys.webFilterList:
+  path: '/web-filter-data-list'
+  defaults:
+    _controller: '\Drupal\webformolsys\Controller\WebfrmController::webDataList'
+  requirements: 
+    _permission: 'webformolsys webfrm_filter'
+  options:
+    no_cache: 'TRUE'
+
+webformolsys.dwncsvfrm:
+  path: '/download-web-csv-data'
+  defaults:
+    _controller: '\Drupal\webformolsys\Controller\WebfrmController::webCsvDown'
+  requirements: 
+    _permission: 'webformolsys webfrm_filter'
+  options:
+    no_cache: 'TRUE'
+
+webformolsys.webfrmSet:
+  path: '/admin/config/web-olsy-config/setting'
+  defaults:
+    _form: '\Drupal\webformolsys\Form\WebfrmFieldSettings'
+    _title: 'Webform Fields Setting'
+  requirements:
+    _permission: 'webformolsys webfrm_filter'

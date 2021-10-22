@@ -1,0 +1,8 @@
+webformolsys:
+  css:
+    theme:
+      css/myweb.css: {}
+  js:
+    js/webjs.js: {}
+  dependencies:
+      - core/jquery

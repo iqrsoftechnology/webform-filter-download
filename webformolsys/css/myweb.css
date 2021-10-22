@@ -1,0 +1,118 @@
+#webform-list-all thead {
+  background: #3c8dbc;
+    color: #fff;
+}
+#webform-list-all table td {
+  text-align:center;
+}
+#webform-list-all thead th:nth-child(1) {width: 41px;}
+#webform-list-all thead th:nth-child(2) {width: 58px;}
+#webform-list-all thead th:nth-child(3) {width: 20px;}
+#webform-list-all thead th:nth-child(4) {width: 21px;}
+#webform-list-all thead th:nth-child(4) {width: 121px;}
+
+
+
+.webcsvfilterform-form, #block-qurancsvformblockmenu{
+  width: 53%;
+  padding: 11px;
+
+  background: #d9edf7;
+  margin-left: 256px;
+  box-sizing: border-box;
+  border-radius: 12px 12px;
+}
+
+ .webcsvfilterform-form .form-item, #block-qurancsvformblockmenu .form-item {
+   background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+    /* /* display: inline-flex; */
+}
+
+ .webcsvfilterform-form .form-item-webform-list{
+      width: 100%;
+      display: inline-block;
+ }
+ 
+ .webcsvfilterform-form .form-item-webformfields{
+      width: 100%;
+      display: inline-table;
+ }
+ 
+ .webcsvfilterform-form #webform-update, 
+ #block-qurancsvformblockmenu  #webform-update{
+  height: 250px;
+}
+
+#webform-settings-field {
+  height:150px;
+}
+
+
+.path-web-filter-data-list .table-responsive {
+  display:inline;
+}
+
+.csvdown {
+  float: right;
+  margin-top: -45px;
+}
+
+#save-btn {
+  display: inherit;
+}
+.form-item-start-date, .form-item-end-date{
+    display: inline-grid;
+    width: 48%%;
+}
+@media screen and (max-width: 402px) {
+  .form-item-start-date, .form-item-end-date{
+    display: inline-grid;
+    width: 100%;
+}
+  .webcsvfilterform-form, #block-qurancsvformblockmenu{
+    width: 100%;
+    padding: 11px;
+    background: #d9edf7;
+    margin-left: 1px;
+    box-sizing: border-box;
+    border-radius: 12px 12px;
+  }
+
+   .webcsvfilterform-form .form-item, #block-qurancsvformblockmenu .form-item {
+     background-color: #d9edf7;
+      border-color: #bce8f1;
+      color: #31708f;
+      /* /* display: inline-flex; */
+  }
+
+   .webcsvfilterform-form .form-item-webform-list{
+        width: 100%;
+        display: inline-block;
+   }
+   
+   .webcsvfilterform-form .form-item-webformfields{
+        width: 100%;
+        display: inline-table;
+   }
+   
+   .webcsvfilterform-form #webform-update, 
+   #block-qurancsvformblockmenu  #webform-update{
+    height: 250px;
+  }
+
+  #webform-settings-field {
+    height:150px;
+  }
+  
+  .csvdown {
+      float: right;
+      margin-top: -36px;
+    }
+
+  .path-web-filter-data-list .table-responsive {
+    display:inline-block;
+  }
+}
+

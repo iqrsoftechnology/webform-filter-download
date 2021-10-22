@@ -1,0 +1,14 @@
+name: webform Olsys
+type: module
+description: Basic custom features added.
+core: 8.x
+package: webformolsys
+core_version_requirement: ^8.7.7 || ^9
+
+dependencies:
+  - webform
+  - block
+# Information added by Drupal.org packaging script on 2020-04-01
+version: '8.x-1.0'
+project: 'ctools'
+datestamp: 1634896911
